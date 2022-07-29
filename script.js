@@ -12,7 +12,7 @@ div.innerHTML = `
 </ul>
 </div>
 `
-let api = 'http://www.omdbapi.com/?t=naruto&apikey=bcea3e57'
+let api = 'https://www.omdbapi.com/?t=naruto&apikey=bcea3e57'
 async function users() {
     let res = await fetch(api)
     let data = await res.json()
