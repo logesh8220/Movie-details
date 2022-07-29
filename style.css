@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(54, 54, 54);
+}
+.headerbar {
+    display:flex;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    justify-content: space-evenly;
+    list-style-type:none;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+}
+.con {
+    background-color: rgb(0, 0, 0);
+}
+.inputbar{
+    border-radius: 3px;
+    border: none;
+    outline: none;
+}
+.searchicon {
+    border-radius: 4px;
+}
+.lmdb {
+    border-radius: 5px;
+    background-color: rgb(248, 182, 2);
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 70px;
+    font-size: larger;
+    
+}
+.sicon {
+    color: gray;
+}
+.items:hover {
+text-shadow: 2px 2px 13px rgb(248, 182, 2);
+cursor: pointer;
+}
+.div2{
+height: 70rem;
+background-color: rgb(54, 54, 54);
+}
+.neseteddiv {
+    background-color: rgb(54, 54, 54);
+    margin-top: 5rem; 
+}
+.genre {
+padding-top: 30px;
+}
+.ratings {
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    margin: auto;
+}
+.rating {
+
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.icons {
+    color:rgb(248, 182, 2) ;
+}
+.vicon {
+    color: rgb(25, 185, 248);
+}
